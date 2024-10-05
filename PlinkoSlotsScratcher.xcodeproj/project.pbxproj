@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7AD92B2CB032B9000209F0 /* PlinkoSlotsScratcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AD92A2CB032B9000209F0 /* PlinkoSlotsScratcherApp.swift */; };
+		EE7AD92D2CB032B9000209F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AD92C2CB032B9000209F0 /* ContentView.swift */; };
+		EE7AD92F2CB032BB000209F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7AD92E2CB032BB000209F0 /* Assets.xcassets */; };
+		EE7AD9322CB032BB000209F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7AD9312CB032BB000209F0 /* Preview Assets.xcassets */; };
+		EE7AD9392CB04142000209F0 /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7AD9382CB04142000209F0 /* TitanOne-Regular.ttf */; };
+		EE7AD93E2CB04208000209F0 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AD93D2CB04208000209F0 /* GameListView.swift */; };
+		EE7AD9412CB0421F000209F0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AD9402CB0421F000209F0 /* UserModel.swift */; };
+		EE7AD9442CB04973000209F0 /* TheplinkoGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AD9432CB04973000209F0 /* TheplinkoGameScene.swift */; };
+		EE8E00022CB0ACEB00A48C4E /* GoldZeusBaraban.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00012CB0ACEB00A48C4E /* GoldZeusBaraban.swift */; };
+		EE8E00042CB0AF4000A48C4E /* GoldZeusGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00032CB0AF4000A48C4E /* GoldZeusGameView.swift */; };
+		EE8E00092CB157DA00A48C4E /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00082CB157DA00A48C4E /* ShopView.swift */; };
+		EE8E00102CB1C46E00A48C4E /* DailyRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E000F2CB1C46E00A48C4E /* DailyRewardsView.swift */; };
+		EE8E00122CB1C78000A48C4E /* DailyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00112CB1C78000A48C4E /* DailyManager.swift */; };
+		EE8EFFFC2CB0A69A00A48C4E /* TheplinkoGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFFFB2CB0A69900A48C4E /* TheplinkoGameView.swift */; };
+		EE8EFFFF2CB0A7AD00A48C4E /* GoldZeusgGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFFFE2CB0A7AD00A48C4E /* GoldZeusgGameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE7AD9272CB032B9000209F0 /* PlinkoSlotsScratcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlinkoSlotsScratcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7AD92A2CB032B9000209F0 /* PlinkoSlotsScratcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlinkoSlotsScratcherApp.swift; sourceTree = "<group>"; };
+		EE7AD92C2CB032B9000209F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE7AD92E2CB032BB000209F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7AD9312CB032BB000209F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE7AD9382CB04142000209F0 /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
+		EE7AD93A2CB04150000209F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE7AD93D2CB04208000209F0 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		EE7AD9402CB0421F000209F0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EE7AD9432CB04973000209F0 /* TheplinkoGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheplinkoGameScene.swift; sourceTree = "<group>"; };
+		EE8E00012CB0ACEB00A48C4E /* GoldZeusBaraban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldZeusBaraban.swift; sourceTree = "<group>"; };
+		EE8E00032CB0AF4000A48C4E /* GoldZeusGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldZeusGameView.swift; sourceTree = "<group>"; };
+		EE8E00082CB157DA00A48C4E /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		EE8E000F2CB1C46E00A48C4E /* DailyRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRewardsView.swift; sourceTree = "<group>"; };
+		EE8E00112CB1C78000A48C4E /* DailyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyManager.swift; sourceTree = "<group>"; };
+		EE8EFFFB2CB0A69900A48C4E /* TheplinkoGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheplinkoGameView.swift; sourceTree = "<group>"; };
+		EE8EFFFE2CB0A7AD00A48C4E /* GoldZeusgGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldZeusgGameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7AD9242CB032B9000209F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7AD91E2CB032B9000209F0 = {
+			isa = PBXGroup;
+			children = (
+				EE7AD9292CB032B9000209F0 /* PlinkoSlotsScratcher */,
+				EE7AD9282CB032B9000209F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7AD9282CB032B9000209F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7AD9272CB032B9000209F0 /* PlinkoSlotsScratcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7AD9292CB032B9000209F0 /* PlinkoSlotsScratcher */ = {
+			isa = PBXGroup;
+			children = (
+				EE7AD93F2CB04215000209F0 /* AppModels */,
+				EE7AD93B2CB041DE000209F0 /* AppContent */,
+				EE7AD93A2CB04150000209F0 /* Info.plist */,
+				EE7AD9382CB04142000209F0 /* TitanOne-Regular.ttf */,
+				EE7AD92A2CB032B9000209F0 /* PlinkoSlotsScratcherApp.swift */,
+				EE7AD92E2CB032BB000209F0 /* Assets.xcassets */,
+				EE7AD9302CB032BB000209F0 /* Preview Content */,
+			);
+			path = PlinkoSlotsScratcher;
+			sourceTree = "<group>";
+		};
+		EE7AD9302CB032BB000209F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE7AD9312CB032BB000209F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE7AD93B2CB041DE000209F0 /* AppContent */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00072CB0B55800A48C4E /* DailyRewards */,
+				EE8E00052CB0B54600A48C4E /* ShopGame */,
+				EE8EFFFD2CB0A79E00A48C4E /* GoldZeus */,
+				EE7AD9422CB04966000209F0 /* Theplinko */,
+				EE7AD93C2CB041F2000209F0 /* GameList */,
+				EE7AD92C2CB032B9000209F0 /* ContentView.swift */,
+			);
+			path = AppContent;
+			sourceTree = "<group>";
+		};
+		EE7AD93C2CB041F2000209F0 /* GameList */ = {
+			isa = PBXGroup;
+			children = (
+				EE7AD93D2CB04208000209F0 /* GameListView.swift */,
+			);
+			path = GameList;
+			sourceTree = "<group>";
+		};
+		EE7AD93F2CB04215000209F0 /* AppModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE7AD9402CB0421F000209F0 /* UserModel.swift */,
+			);
+			path = AppModels;
+			sourceTree = "<group>";
+		};
+		EE7AD9422CB04966000209F0 /* Theplinko */ = {
+			isa = PBXGroup;
+			children = (
+				EE7AD9432CB04973000209F0 /* TheplinkoGameScene.swift */,
+				EE8EFFFB2CB0A69900A48C4E /* TheplinkoGameView.swift */,
+			);
+			path = Theplinko;
+			sourceTree = "<group>";
+		};
+		EE8E00002CB0ACD900A48C4E /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00012CB0ACEB00A48C4E /* GoldZeusBaraban.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		EE8E00052CB0B54600A48C4E /* ShopGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00082CB157DA00A48C4E /* ShopView.swift */,
+			);
+			path = ShopGame;
+			sourceTree = "<group>";
+		};
+		EE8E00072CB0B55800A48C4E /* DailyRewards */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E000F2CB1C46E00A48C4E /* DailyRewardsView.swift */,
+				EE8E00112CB1C78000A48C4E /* DailyManager.swift */,
+			);
+			path = DailyRewards;
+			sourceTree = "<group>";
+		};
+		EE8EFFFD2CB0A79E00A48C4E /* GoldZeus */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00002CB0ACD900A48C4E /* Nodes */,
+				EE8EFFFE2CB0A7AD00A48C4E /* GoldZeusgGameScene.swift */,
+				EE8E00032CB0AF4000A48C4E /* GoldZeusGameView.swift */,
+			);
+			path = GoldZeus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7AD9262CB032B9000209F0 /* PlinkoSlotsScratcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7AD9352CB032BB000209F0 /* Build configuration list for PBXNativeTarget "PlinkoSlotsScratcher" */;
+			buildPhases = (
+				EE7AD9232CB032B9000209F0 /* Sources */,
+				EE7AD9242CB032B9000209F0 /* Frameworks */,
+				EE7AD9252CB032B9000209F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlinkoSlotsScratcher;
+			productName = PlinkoSlotsScratcher;
+			productReference = EE7AD9272CB032B9000209F0 /* PlinkoSlotsScratcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7AD91F2CB032B9000209F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE7AD9262CB032B9000209F0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE7AD9222CB032B9000209F0 /* Build configuration list for PBXProject "PlinkoSlotsScratcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7AD91E2CB032B9000209F0;
+			productRefGroup = EE7AD9282CB032B9000209F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7AD9262CB032B9000209F0 /* PlinkoSlotsScratcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7AD9252CB032B9000209F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7AD9322CB032BB000209F0 /* Preview Assets.xcassets in Resources */,
+				EE7AD9392CB04142000209F0 /* TitanOne-Regular.ttf in Resources */,
+				EE7AD92F2CB032BB000209F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7AD9232CB032B9000209F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7AD92D2CB032B9000209F0 /* ContentView.swift in Sources */,
+				EE8EFFFC2CB0A69A00A48C4E /* TheplinkoGameView.swift in Sources */,
+				EE8E00102CB1C46E00A48C4E /* DailyRewardsView.swift in Sources */,
+				EE7AD92B2CB032B9000209F0 /* PlinkoSlotsScratcherApp.swift in Sources */,
+				EE7AD9442CB04973000209F0 /* TheplinkoGameScene.swift in Sources */,
+				EE8E00022CB0ACEB00A48C4E /* GoldZeusBaraban.swift in Sources */,
+				EE7AD9412CB0421F000209F0 /* UserModel.swift in Sources */,
+				EE8E00122CB1C78000A48C4E /* DailyManager.swift in Sources */,
+				EE7AD93E2CB04208000209F0 /* GameListView.swift in Sources */,
+				EE8E00042CB0AF4000A48C4E /* GoldZeusGameView.swift in Sources */,
+				EE8E00092CB157DA00A48C4E /* ShopView.swift in Sources */,
+				EE8EFFFF2CB0A7AD00A48C4E /* GoldZeusgGameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE7AD9332CB032BB000209F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE7AD9342CB032BB000209F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7AD9362CB032BB000209F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlinkoSlotsScratcher/Preview Content\"";
+				DEVELOPMENT_TEAM = BK9T62H495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlinkoSlotsScratcher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.PlinkoSlotsScratcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7AD9372CB032BB000209F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlinkoSlotsScratcher/Preview Content\"";
+				DEVELOPMENT_TEAM = BK9T62H495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlinkoSlotsScratcher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.PlinkoSlotsScratcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7AD9222CB032B9000209F0 /* Build configuration list for PBXProject "PlinkoSlotsScratcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7AD9332CB032BB000209F0 /* Debug */,
+				EE7AD9342CB032BB000209F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7AD9352CB032BB000209F0 /* Build configuration list for PBXNativeTarget "PlinkoSlotsScratcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7AD9362CB032BB000209F0 /* Debug */,
+				EE7AD9372CB032BB000209F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7AD91F2CB032B9000209F0 /* Project object */;
+}
